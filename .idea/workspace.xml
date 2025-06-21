@@ -5,38 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9399f40c-7e73-4599-8302-2b5fa2f17ee5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Scrapping_prj_v1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/application/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/application/parsers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/application/use_cases.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/bootstrap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/domain/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/domain/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/infrastructure/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/infrastructure/crawlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/infrastructure/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/infrastructure/db/entestements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/infrastructure/db/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/infrastructure/db/repositories.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/infrastructure/db/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/infrastructure/db/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/infrastructure/scrapers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/Dockerfile.scraper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/entesetmentt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Peppendom"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Peppendom/Scraper_v1",
