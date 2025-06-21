@@ -1,3 +1,8 @@
 .env
 
-dumps/
+dumps/*
+!dumps/.gitkeep
+
+.idea
+
+__pycache__/
