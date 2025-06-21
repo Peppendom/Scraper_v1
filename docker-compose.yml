@@ -1,0 +1,31 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: cars_postgres
+    env_file:
+      - .env
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+  scraper:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.scraper
+    container_name: cars_scraper
+    depends_on:
+      - postgres
+    env_file:
+      - .env
+    environment:
+      - PYTHONPATH=/app
+    volumes:
+      - ./:/app
+    tty: true
+    stdin_open: true
+    command: python app/bootstrap.py
+
+
+volumes:
+  pg_data:

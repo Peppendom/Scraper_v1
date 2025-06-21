@@ -1,0 +1,15 @@
+APScheduler==3.11.0
+asyncpg==0.30.0
+beautifulsoup4==4.13.4
+greenlet==3.2.3
+mypy==1.16.1
+mypy_extensions==1.1.0
+pathspec==0.12.1
+playwright==1.52.0
+pyee==13.0.0
+python-dotenv==1.1.0
+soupsieve==2.7
+SQLAlchemy==2.0.41
+sqlalchemy-stubs==0.4
+typing_extensions==4.14.0
+tzlocal==5.3.1

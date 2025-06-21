@@ -1,0 +1,19 @@
+# Installing python
+FROM python:3.13.3
+
+# Setting working directory
+WORKDIR /app
+
+# Installing dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Installing Playwright browsers
+RUN playwright install-deps
+RUN playwright install
+
+# Installing PostgreSQL client
+RUN apt-get update && apt-get install -y postgresql-client
+
+# Copying application
+COPY . .
